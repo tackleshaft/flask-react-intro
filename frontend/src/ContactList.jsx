@@ -1,4 +1,4 @@
-import React from "react"
+/* eslint-disable react/prop-types */
 
 const ContactList = ({ contacts, updateContact, updateCallback }) => {
     const onDelete = async (id) => {
